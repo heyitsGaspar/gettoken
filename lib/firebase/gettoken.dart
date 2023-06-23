@@ -15,6 +15,7 @@ class FirebaseMessagingHelper {
       print('Token del dispositivo: $token');
     } catch (e) {
       print('Error al obtener el token: $e');
+      print("Hola soy yo de nuevo");
     }
     return token;
   }
