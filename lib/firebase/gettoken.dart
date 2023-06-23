@@ -16,6 +16,7 @@ class FirebaseMessagingHelper {
     } catch (e) {
       print('Error al obtener el token: $e');
       print("Hola soy yo de nuevo");
+      print("trantando de hacer un error");
     }
     return token;
   }
